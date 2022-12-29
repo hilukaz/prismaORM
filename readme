@@ -4,7 +4,7 @@ npx tsc --init
 npx prisma
 yarn add prisma -D
 yarn prisma init
-npx prisma migrate dev
 yarn add @prisma/client
 npm i --save-dev @types/express
+npx prisma migrate dev
 yarn prisma studio
