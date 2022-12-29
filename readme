@@ -1,0 +1,10 @@
+npm init -y       
+npm install prisma typescript ts-node @types/node --save-dev
+npx tsc --init    
+npx prisma
+yarn add prisma -D
+yarn prisma init
+npx prisma migrate dev
+yarn add @prisma/client
+npm i --save-dev @types/express
+yarn prisma studio
